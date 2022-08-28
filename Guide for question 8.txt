@@ -1,3 +1,0 @@
-Install following package:
- npm i recharts
-
