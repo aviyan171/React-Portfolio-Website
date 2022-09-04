@@ -1,28 +1,24 @@
 
-import './App.css';
 import {useState} from 'react'
 // import Datavisualization from './components/Data Visualization/Datavisualization';
-import {Route,Routes,Link} from 'react-router-dom'
-import SignIn from './components/SignIn';
-import Home from './components/Home';
-import AccountPage from './components/AccountPage';
-import ProtectedRouts from './components/Protected';
+import About from './components/about/About'
+import Contact from './components/contact/Contact';
+import Experience from './components/Experience/Experience';
+import Footer from './components/footer/Footer'
+import Header from './components/header/Header'
+import Nav from './components/nav/Nav'
+import Protfolio from './components/profolio/Protfolio'
+import Services from './components/services/Services'
+import Testimonials from './components/Testimonials/Testimonials'
 
 function App() {
   return (
     <>
-    <Link to='/'>  Signin Page</Link>
-    <br />
-    <Link to='/home'>  Home Page</Link>
-    <br />
-    <Link to='/account'>  Account Page</Link>
-     <Routes>
-      <Route  path='/' element={<SignIn/>}/>
-      <Route element={<ProtectedRouts/>}>
-      <Route  path='/home' element={<Home/>}/>
-      <Route  path='/account' element={<AccountPage/>}/>
-      </Route>
-     </Routes>
+    <Header/>
+    <Nav/>
+    <About/>
+    <Experience/>
+  
     </>
   );
 }

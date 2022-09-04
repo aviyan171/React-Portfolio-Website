@@ -1,0 +1,23 @@
+nav{
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    /* display: block; */
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    top: 90%;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    transform: translateX(260%);
+}
+
+nav a{
+    padding: 2px;
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+

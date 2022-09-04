@@ -1,0 +1,50 @@
+.photo{
+    border-radius: 10px ;
+    height: 150px;
+    width: 150px;
+  
+}
+
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 10rem;
+    bottom: 5rem;
+}
+.scroll__down{
+    position: absolute;
+    right: 9rem;
+    bottom: 6.5rem;
+    transform: rotate(-90deg);
+
+
+}
+
+/* @media screen and (max-width:1024px) {
+    header{
+        height: 68vh;
+    }
+} */
